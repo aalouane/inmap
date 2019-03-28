@@ -18,13 +18,13 @@ Installing
 
 inmap requires the nmap scanner : `<https://nmap.org/download.html>`_
 
-**Debian based system**::  
-sudo apt-get install nmap
+Debian based system::  
+    sudo apt-get install nmap
 
 **Red Hat based system**::
-yum install nmap 
+    yum install nmap 
 
-**ArchLinux**:: 
+ArchLinux:: 
 pacman -S nmap                       
 
 **OpenSuse**::
