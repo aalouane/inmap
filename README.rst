@@ -3,33 +3,34 @@ Inmap
 ======================
 
 Introduction
-============
+------------
 
 inmap is a python library which helps in using nmap port scanner. It allows to easilly manipulate nmap scan results and will be a perfect
 tool for systems administrators who want to automatize scanning task and reports.
 
 Supported Python Versions
-=========================
+-------------------------
 
 * Python 3.4+
 
 Installing
-==========
+----------
 
 inmap requires the nmap scanner : `<https://nmap.org/download.html>`_
 
 Install nmap by command :
-+----------------------------+-----------------------------------+
-| **Debian based system**:   | sudo apt-get install nmap         |
-+----------------------------+-----------------------------------+
-| **Red Hat based system**:  | yum install nmap                  |
-+----------------------------+-----------------------------------+
-| **ArchLinux**:             | pacman -S nmap                    |
-+----------------------------+-----------------------------------+
-| **OpenSuse**:              | yast2 -i nmap                     |
-+----------------------------+-----------------------------------+
-| **Mac OS X**:              | brew install nmap                 |
-+----------------------------+-----------------------------------+
+
++--------------+-----------------------------------------------------------------------+
+| **Debian based system**:  | sudo apt-get install nmap        |
++--------------+-----------------------------------------------------------------------+
+| **Red Hat based system**:    | yum install nmap |
++--------------+-----------------------------------------------------------------------+
+| **ArchLinux**: | pacman -S nmap                       |
++--------------+-----------------------------------------------------------------------+
+| **OpenSuse**:  | yast2 -i nmap          |
++--------------+-----------------------------------------------------------------------+
+| **Mac OS X**:  | brew install nmap          |
++--------------+-----------------------------------------------------------------------+
 
 If you have `pip3 <https://pip.pypa.io/>`_ on your system, you can simply install or upgrade the Python bindings::
 
@@ -40,7 +41,7 @@ Alternately, you can download the source distribution from `PyPI <https://pypi.o
     python setup.py install
 
 Example 0: Port Scanning
-========================
+------------------------
 
 .. code-block:: python
 
@@ -90,7 +91,7 @@ Example 0: Port Scanning
         print(result['ip_address'], ' - ', result['port'], ' - ', result['proto'], ' - ', result['state'], ' - ', result['service'])
 
 Example 1: Port Scanning with their version
-===========================================
+-------------------------------------------
 
 .. code-block:: python
 
@@ -111,7 +112,7 @@ Example 1: Port Scanning with their version
     # For fetch and displaying results, see the example 0
 
 Example 2: scan the 10 most ports
-=================================
+---------------------------------
 
 .. code-block:: python
 
@@ -132,7 +133,7 @@ Example 2: scan the 10 most ports
     # For fetch and displaying results, see the example 0
 
 Example 3: all information that we can have about this host : OS Detection, Port Scanning ...
-=============================================================================================
+---------------------------------------------------------------------------------------------
 
 .. code-block:: python
 
@@ -191,3 +192,12 @@ Example 3: all information that we can have about this host : OS Detection, Port
         print(result['ip_address'], ' - ', result['mac_address'], ' - ', result['hostname'], ' - ', result['os_family'])
 
     # For fetch and displaying port results, see the example 0
+
+Use The Source Luke!
+--------------------
+
+View source code online:
+
++-----------+-------------------------------------------------------+
+| official: | https://github.com/aalouane/inmap                     |
++-----------+-------------------------------------------------------+
