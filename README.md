@@ -100,10 +100,4 @@ You have to install nmap
     # To know the state of this port
     print(result['state'])
     
-    
-    
-Homepage
-========
-
-http://github
 
