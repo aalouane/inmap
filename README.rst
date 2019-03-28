@@ -13,8 +13,8 @@ Supported Python Versions
 
 * Python 3.4+
 
-Installing
-----------
+Installing nmap scanner
+-----------------------
 
 inmap requires the nmap scanner : `<https://nmap.org/download.html>`_
 
@@ -37,6 +37,9 @@ inmap requires the nmap scanner : `<https://nmap.org/download.html>`_
 **Mac OS X**::  
 
     brew install nmap          
+
+Install inmap package
+---------------------
 
 If you have `pip3 <https://pip.pypa.io/>`_ on your system, you can simply install or upgrade the Python bindings::
 
