@@ -18,23 +18,20 @@ Installing
 
 inmap requires the nmap scanner : `<https://nmap.org/download.html>`_
 
-Install nmap by command ::
+**Debian based system**::  
+sudo apt-get install nmap
 
-+-----------+-------------------------------------------------------+
-| official: | `sudo apt-get install nmap`                     |
-+-----------+-------------------------------------------------------+
+**Red Hat based system**::
+yum install nmap 
 
-+--------------+-----------------------------------------------------------------------+
-| **Debian based system**:  | sudo apt-get install nmap        |
-+--------------+-----------------------------------------------------------------------+
-| **Red Hat based system**:    | yum install nmap |
-+--------------+-----------------------------------------------------------------------+
-| **ArchLinux**: | pacman -S nmap                       |
-+--------------+-----------------------------------------------------------------------+
-| **OpenSuse**:  | yast2 -i nmap          |
-+--------------+-----------------------------------------------------------------------+
-| **Mac OS X**:  | brew install nmap          |
-+--------------+-----------------------------------------------------------------------+
+**ArchLinux**:: 
+pacman -S nmap                       
+
+**OpenSuse**::
+yast2 -i nmap          
+
+**Mac OS X**::  
+brew install nmap          
 
 If you have `pip3 <https://pip.pypa.io/>`_ on your system, you can simply install or upgrade the Python bindings::
 
