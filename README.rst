@@ -21,7 +21,7 @@ inmap requires the nmap scanner : `<https://nmap.org/download.html>`_
 Install nmap by command :
 
 +-----------+-------------------------------------------------------+
-| official: | sudo apt-get install nmap                     |
+| official: | `sudo apt-get install nmap`                     |
 +-----------+-------------------------------------------------------+
 
 +--------------+-----------------------------------------------------------------------+
