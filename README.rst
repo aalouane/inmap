@@ -5,8 +5,8 @@ Inmap
 Introduction
 ------------
 
-inmap is a python library which helps in using nmap port scanner. It allows to easilly manipulate nmap scan results and will be a perfect
-tool for systems administrators who want to automatize scanning task and reports.
+inmap is a python library which helps in using nmap port scanner.  
+It allows to easilly manipulate nmap scan results and will be a perfect tool for systems administrators who want to automatize scanning task and reports.
 
 Supported Python Versions
 -------------------------
