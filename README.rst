@@ -45,7 +45,7 @@ If you have `pip3 <https://pip.pypa.io/>`_ on your system, you can simply instal
 
     pip3 install inmap
 
-Alternately, you can download the source distribution from `PyPI <https://pypi.org/project/inmap/#files>`_ (e.g. inmap-1.2.4.tar.gz), unarchive it, and run::
+Alternately, you can download the source distribution from `PyPI <https://pypi.org/project/inmap/#files>`_ (e.g. inmap-1.2.7.tar.gz), unarchive it, and run::
 
     python setup.py install
 
