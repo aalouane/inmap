@@ -191,12 +191,3 @@ Example 3: all information that we can have about this host : OS Detection, Port
         print(result['ip_address'], ' - ', result['mac_address'], ' - ', result['hostname'], ' - ', result['os_family'])
 
     # For fetch and displaying port results, see the example 0
-
-Use The Source Luke!
-====================
-
-View source code online:
-
-+-----------+-------------------------------------------------------+
-| official: | <https://github.com/aalouane/inmap>`_                   |
-+-----------+-------------------------------------------------------+
