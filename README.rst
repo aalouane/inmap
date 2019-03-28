@@ -198,5 +198,5 @@ Use The Source Luke!
 View source code online:
 
 +-----------+-------------------------------------------------------+
-| official: | https://github.com/aalouane/inmap                       |
+| official: | <https://github.com/aalouane/inmap>`_                   |
 +-----------+-------------------------------------------------------+
